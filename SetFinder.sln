@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25920.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC73CE84-A01F-4767-A4CB-EEF88FF28303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetFinder", "src\SetFinder\SetFinder.csproj", "{30A937C3-ED11-43B2-B9DF-7C62CE064266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetFinderLib", "SetFinderLib\SetFinderLib.csproj", "{D2CF426E-2A45-485C-8231-0CA7A8F469CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetFinderLibTest", "SetFinderLibTest\SetFinderLibTest.csproj", "{6B9E4395-E8BD-4601-9DE3-8BEA1533D455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A937C3-ED11-43B2-B9DF-7C62CE064266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A937C3-ED11-43B2-B9DF-7C62CE064266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A937C3-ED11-43B2-B9DF-7C62CE064266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A937C3-ED11-43B2-B9DF-7C62CE064266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CF426E-2A45-485C-8231-0CA7A8F469CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CF426E-2A45-485C-8231-0CA7A8F469CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CF426E-2A45-485C-8231-0CA7A8F469CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CF426E-2A45-485C-8231-0CA7A8F469CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9E4395-E8BD-4601-9DE3-8BEA1533D455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9E4395-E8BD-4601-9DE3-8BEA1533D455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9E4395-E8BD-4601-9DE3-8BEA1533D455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9E4395-E8BD-4601-9DE3-8BEA1533D455}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30A937C3-ED11-43B2-B9DF-7C62CE064266} = {AC73CE84-A01F-4767-A4CB-EEF88FF28303}
+		{D2CF426E-2A45-485C-8231-0CA7A8F469CC} = {AC73CE84-A01F-4767-A4CB-EEF88FF28303}
+	EndGlobalSection
+EndGlobal
